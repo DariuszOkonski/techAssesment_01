@@ -1,6 +1,7 @@
 package com.codecool.capture_the_flag;
 
 import com.codecool.capture_the_flag.actors.Actor;
+import com.codecool.capture_the_flag.actors.Flag;
 import com.codecool.capture_the_flag.actors.Player;
 
 import java.util.ArrayList;
@@ -21,9 +22,19 @@ public class GameMap {
      * */
     private final List<Player> players;
 
+    /**
+     * Contains all players present on the map (also captured ones)
+     * */
+    private final List<Flag> flags;
+
+
+    /**
+     * Returns a new GameMap instance, constructed from given char matrix
+     * */
     public GameMap(String charMatrix) {
         String[] lines = charMatrix.split(System.lineSeparator());
         actorMatrix = new Actor[lines.length][lines[0].length()];
         this.players = new ArrayList<>();
+        this.flags = new ArrayList<>();
     }
 }
