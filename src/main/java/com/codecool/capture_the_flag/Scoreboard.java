@@ -1,7 +1,7 @@
-package com.codecool.capture_the_flag;
+package main.java.com.codecool.capture_the_flag;
 
-import com.codecool.capture_the_flag.actors.Player;
-import com.codecool.capture_the_flag.actors.PlayerTeam;
+import main.java.com.codecool.capture_the_flag.actors.Player;
+import main.java.com.codecool.capture_the_flag.actors.PlayerTeam;
 
 import java.util.List;
 

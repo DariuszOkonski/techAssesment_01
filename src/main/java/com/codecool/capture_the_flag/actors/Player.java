@@ -1,8 +1,8 @@
-package com.codecool.capture_the_flag.actors;
+package main.java.com.codecool.capture_the_flag.actors;
 
-import com.codecool.capture_the_flag.GameMap;
-import com.codecool.capture_the_flag.util.Direction;
-import com.codecool.capture_the_flag.util.Vector;
+import main.java.com.codecool.capture_the_flag.GameMap;
+import main.java.com.codecool.capture_the_flag.util.Direction;
+import main.java.com.codecool.capture_the_flag.util.Vector;
 
 /**
  * Base class for all Player

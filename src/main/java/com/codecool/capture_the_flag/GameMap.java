@@ -1,14 +1,14 @@
-package com.codecool.capture_the_flag;
+package main.java.com.codecool.capture_the_flag;
 
-import com.codecool.capture_the_flag.actors.Actor;
-import com.codecool.capture_the_flag.actors.ActorFactory;
-import com.codecool.capture_the_flag.actors.Flag;
-import com.codecool.capture_the_flag.actors.Player;
-import com.codecool.capture_the_flag.util.Direction;
+import main.java.com.codecool.capture_the_flag.actors.Actor;
+import main.java.com.codecool.capture_the_flag.actors.ActorFactory;
+import main.java.com.codecool.capture_the_flag.actors.Flag;
+import main.java.com.codecool.capture_the_flag.actors.Player;
+import main.java.com.codecool.capture_the_flag.util.Direction;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.codecool.capture_the_flag.util.*;
+import main.java.com.codecool.capture_the_flag.util.*;
 
 /**
  * GameMap class

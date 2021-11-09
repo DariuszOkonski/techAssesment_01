@@ -1,4 +1,4 @@
-package com.codecool.capture_the_flag.util;
+package main.java.com.codecool.capture_the_flag.util;
 
 /**
  * Direction enum

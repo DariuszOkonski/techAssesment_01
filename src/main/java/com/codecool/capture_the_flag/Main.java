@@ -1,4 +1,4 @@
-package com.codecool.capture_the_flag;
+package main.java.com.codecool.capture_the_flag;
 
 public class Main {
 

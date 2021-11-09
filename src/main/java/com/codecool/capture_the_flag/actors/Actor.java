@@ -1,6 +1,6 @@
-package com.codecool.capture_the_flag.actors;
+package main.java.com.codecool.capture_the_flag.actors;
 
-import com.codecool.capture_the_flag.GameMap;
+import main.java.com.codecool.capture_the_flag.GameMap;
 
 /**
  * Base class for all Actors - Players and Flags

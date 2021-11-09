@@ -1,18 +1,24 @@
-package com.codecool.capture_the_flag.actors;
+package main.java.com.codecool.capture_the_flag.actors;
 
-import com.codecool.capture_the_flag.GameMap;
+import main.java.com.codecool.capture_the_flag.GameMap;
 
 /**
- * Rock player class
+ * Paper player class
  * */
-public class Rock extends Player{
-    public Rock(String name, GameMap mapReference) {
+public class Paper extends Player{
+
+
+    public Paper(String name, GameMap mapReference) {
         super(name, mapReference);
-        this.letter = 'R';
+        this.letter = 'P';
     }
 
     @Override
     public void onGameCycle() {
+        throw new RuntimeException("Method not implemented");
+    }
+
+    private boolean isActorEnemy(Actor actor) {
         throw new RuntimeException("Method not implemented");
     }
 
