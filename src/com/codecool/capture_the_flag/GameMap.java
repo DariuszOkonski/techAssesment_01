@@ -4,9 +4,11 @@ import com.codecool.capture_the_flag.actors.Actor;
 import com.codecool.capture_the_flag.actors.ActorFactory;
 import com.codecool.capture_the_flag.actors.Flag;
 import com.codecool.capture_the_flag.actors.Player;
+import com.codecool.capture_the_flag.util.Direction;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.codecool.capture_the_flag.util.*;
 
 /**
  * GameMap class
@@ -53,7 +55,96 @@ public class GameMap {
         }
     }
 
+    /**
+     * Returns a char matrix of map's current state
+     *
+     * @return
+     * */
+    @Override
+    public String toString() {
 
+        return null;
+    }
+
+    /**
+     * Returns an actor instance present on given position
+     * Should return null if no actor is present
+     * Should throw an IllegalArgumentException if the position is outside map's boundaries
+     *
+     * @param position
+     * @return
+     * */
+    public Actor getActor(Vector position) {
+        return null;
+    }
+
+    /**
+     * Returns a position of given actor instance
+     * Should throw an IllegalArgumentException if actor is not found or no actor is given
+     *
+     * @param actor
+     * @return
+     * */
+    public Vector getPosition(Actor actor) {
+        return null;
+    }
+
+    /**
+     * Assigns given actor to given position
+     * Should throw an IllegalArgumentException if the position is occupied by an another actor
+     *
+     * @param actor
+     * @param position
+     * */
+    public void setPosition(Actor actor, Vector position) {
+
+    }
+
+    /**
+     * Attempts to move given player to a new position
+     * if necessary, restricts movement or simulates fights between players
+     *
+     * @param player
+     * @param currentPosition
+     * @param dir
+     * */
+    public void tryMovePlayer(Player player, Vector currentPosition, Direction dir) {
+
+    }
+
+    /**
+     * Returns the position of an uncaptured flag that is closest to given palyer
+     * Sould throw IllegalArgumentException if there are no uncaptured flags
+     *
+     * @param player
+     * @return
+     * */
+
+    public Vector getNearestFlagPosition(Player player) {
+        return null;
+    }
+
+    /**
+     * Returns true if given position is within the map's boundaries
+     *
+     * @param position
+     * @return
+     * */
+    public boolean withinBoundaries(Vector position) {
+        return false;
+    }
+
+    public Actor[][] getActorMatrix() {
+        return actorMatrix;
+    }
+
+    public List<Player> getPlayers() {
+        return players;
+    }
+
+    public List<Flag> getFlags() {
+        return flags;
+    }
 }
 
 
