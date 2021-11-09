@@ -29,7 +29,7 @@ public class ActorFactory {
      * @return name
      * */
     public static String getName() {
-        return names.peek();
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -40,7 +40,7 @@ public class ActorFactory {
      * @return
      * */
     public static Actor createPlayer(PlayerTeam team, GameMap mapReference) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -50,7 +50,7 @@ public class ActorFactory {
      * @return
      * */
     public static Actor createFlag(GameMap mapReference) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -61,8 +61,7 @@ public class ActorFactory {
      * @return
      * */
     public static Actor createFromChar(char c, GameMap mapReference) {
-
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
 }

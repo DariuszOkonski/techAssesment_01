@@ -25,7 +25,7 @@ public class Game {
     }
 
     /**
-     * Invokes onGameCcle on all players (DO NOT MODIFY)
+     * Invokes onGameCycle on all players (DO NOT MODIFY)
      * */
     public void cyclePlayers() {
         for (Player player: map.getPlayers()) {

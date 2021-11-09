@@ -11,6 +11,6 @@ public enum PlayerTeam {
     SCISSORS;
 
     public Player createPlayer(String name, GameMap mapReference) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 }

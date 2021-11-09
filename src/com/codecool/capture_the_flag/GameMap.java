@@ -62,8 +62,7 @@ public class GameMap {
      * */
     @Override
     public String toString() {
-
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -75,7 +74,7 @@ public class GameMap {
      * @return
      * */
     public Actor getActor(Vector position) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -86,7 +85,7 @@ public class GameMap {
      * @return
      * */
     public Vector getPosition(Actor actor) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -97,7 +96,7 @@ public class GameMap {
      * @param position
      * */
     public void setPosition(Actor actor, Vector position) {
-
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -109,7 +108,7 @@ public class GameMap {
      * @param dir
      * */
     public void tryMovePlayer(Player player, Vector currentPosition, Direction dir) {
-
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -121,7 +120,7 @@ public class GameMap {
      * */
 
     public Vector getNearestFlagPosition(Player player) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     /**
@@ -131,7 +130,7 @@ public class GameMap {
      * @return
      * */
     public boolean withinBoundaries(Vector position) {
-        return false;
+        throw new RuntimeException("Method not implemented");
     }
 
     public Actor[][] getActorMatrix() {

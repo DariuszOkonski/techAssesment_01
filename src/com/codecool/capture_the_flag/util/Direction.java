@@ -15,11 +15,11 @@ public enum Direction {
     }
 
     public Vector createVector() {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     public Direction opposite() {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
 }

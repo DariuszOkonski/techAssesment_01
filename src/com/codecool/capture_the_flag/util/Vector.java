@@ -31,11 +31,11 @@ public class Vector {
     }
 
     public Direction getDirectionToward(Vector target) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     public Vector getVectorToward(Direction targetDirection) {
-        return null;
+        throw new RuntimeException("Method not implemented");
     }
 
     @Override
