@@ -115,19 +115,6 @@ public abstract class Player extends Actor {
     public boolean isAlly(Player otherPlayer) {
         return otherPlayer.getTeam() == this.getTeam();
     }
-
-    /**
-     * PlayerTeam enum
-     * */
-    public enum PlayerTeam {
-        ROCK,
-        PAPER,
-        SCISSORS;
-
-        public Player createPlayer(String name, GameMap mapReference) {
-            return null;
-        }
-    }
 }
 
 
