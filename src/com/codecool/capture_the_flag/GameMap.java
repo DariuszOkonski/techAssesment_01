@@ -1,6 +1,7 @@
 package com.codecool.capture_the_flag;
 
 import com.codecool.capture_the_flag.actors.Actor;
+import com.codecool.capture_the_flag.actors.ActorFactory;
 import com.codecool.capture_the_flag.actors.Flag;
 import com.codecool.capture_the_flag.actors.Player;
 
@@ -36,5 +37,52 @@ public class GameMap {
         actorMatrix = new Actor[lines.length][lines[0].length()];
         this.players = new ArrayList<>();
         this.flags = new ArrayList<>();
+
+        for (int i = 0; i < lines.length; i++) {
+            char[] chars = lines[i].toCharArray();
+            for (int y = 0; y < lines.length; y++) {
+                Actor fromChar = ActorFactory.createFromChar(chars[y], this);
+                if(fromChar instanceof Player) {
+                    players.add((Player) fromChar);
+                } else if(fromChar instanceof Flag) {
+                    flags.add((Flag) fromChar);
+                }
+                actorMatrix[i][y] = fromChar;
+            }
+
+        }
     }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
